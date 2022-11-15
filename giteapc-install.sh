@@ -12,7 +12,7 @@ tar -xzf giteapc-master.tar.gz && cd giteapc
 
 # Bootstrap the program by installing it with itself (allowing updates)
 
-python3 giteapc.py -y install Lephenixnoir/GiteaPC
+python3 giteapc.py install -y Lephenixnoir/GiteaPC
 
 # Check whether the bin folder is already in the PATH
 
